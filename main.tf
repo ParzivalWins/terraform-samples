@@ -5,6 +5,6 @@ resource "google_compute_instance" "server" {
       zone         = "us-central1-a"
 
       disk  {
-         image =  "ubuntu-1404-trusty-v20160114e"
+         image =  "ubuntu-1404-trusty-v20160114"
       }
 }
