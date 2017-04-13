@@ -1,7 +1,7 @@
 
 resource "google_compute_instance" "server" {
       name  = "server"
-      machine_type = "g1-small"
+      machine_type = "g1-micro"
       zone         = "us-central1-a"
 
       disk  {
